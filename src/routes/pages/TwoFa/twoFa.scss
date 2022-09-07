@@ -1,0 +1,352 @@
+.fa_container {
+  margin: 15px;
+}
+
+.warning_text_container {
+  width: 100%;
+  border-radius: 5px;
+  padding: 15px 10px;
+  background: rgba(242, 201, 76, 0.2);
+}
+
+.warning_item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+
+  color: #000000;
+  &:last-child {
+    margin-top: 20px;
+  }
+}
+
+.fa_toggle_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.fa_toggle_description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 350px;
+}
+.fa_toggle_description > i {
+  color: #eb5757;
+  margin-left: 3px;
+  margin-right: 10px;
+}
+.fa_toggle_description_icon {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.set_btn {
+  padding: 5px 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  background-color: #6fcf97;
+  cursor: pointer;
+}
+.set_btn_disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+.separator {
+  width: 100%;
+  height: 1px;
+  background-color: #e9e9e9;
+}
+
+
+.step_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 15px;
+}
+.step_header {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  background: #f6f6f6;
+  border-radius: 5px;
+  // margin-bottom: 15px;
+}
+.step_number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6fcf97;
+  color: #fff;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.step_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  color: #4f4f4f;
+  margin-left: 10px;
+}
+
+.step_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.step_body_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.step_one_qr {
+  width: 118px;
+  height: 120px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 10px;
+}
+.step_input {
+  display: flex;
+  text-align: center;
+  padding-right: 30px;
+  width: 118px;
+  height: 27px;
+  outline: none;
+}
+
+.step_input_valid {
+  background-color: #f6f6f6;
+  outline: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+}
+
+.step_input_container {
+  display: flex;
+  position: relative;
+  align-self: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.step_input_container i {
+  position: absolute;
+  right: 45%;
+  top: 5px;
+  color: #6fcf97;
+}
+
+.step_two_btn {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #2d9cdb;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.step_grid_codes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-row: repeat(2, 1fr);
+  column-gap: 20px;
+  font-family: "Menlo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.step_two_actions_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #2d9cdb;
+}
+
+.step_three_trigger {
+  display: flex;
+  align-items: center;
+  right: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #2d9cdb;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.step_two_actions_container > span {
+  cursor: pointer;
+}
+.step_two_actions_container > span:first-child {
+  margin-right: 30px;
+}
+
+.step_three_button_container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 10px;
+}
+.step_three_code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.step_three_code > span {
+  font-family: "Menlo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.step_four_container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 15px;
+  flex-direction: column;
+}
+
+.reset_btn {
+  border: none;
+  background-color: transparent;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.step_four_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 15px;
+}
+.step_four_item {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.step_four_item_description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.step_four_icon_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #bc57eb;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.step_four_icon_wrapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #2d9cdb;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.step_four_item_title {
+  display: flex;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
